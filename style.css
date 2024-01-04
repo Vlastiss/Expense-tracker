@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #b4e5e5, #765353)
+}
+body h1, .tracker h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+.tracker, table {
+  max-width: 700px;
+  width: 100%;
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+.tracker h2 {
+  color: greenyellow;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.text_p {
+  font-size: 38px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+input {
+  padding: 10px 20px;
+  font-size: 28px;
+  border: none;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+button {
+  margin: 20px auto;
+  font-size: 30px;
+  width: 30vw;
+  text-align: center;
+  background-color: rgba(14, 170, 0, 0.798);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+table {
+  padding: 20px 30px;
+  max-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+th,tbody tr td {
+  text-align: left;
+  padding: 10px;
+  border-right: 1px solid rgb(178, 178, 178);
+  font-size: 18px;
+}
+thead, tbody {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+thead {
+  background-color: white;
+  border-bottom: 1px solid rgb(178, 178, 178);
+}
+tbody {
+  background-color: rgba(255, 255, 255, 0.672);
+  border-bottom: 1px solid rgb(178, 178, 178);
+}
+thead th {
+  border-right: 1px solid rgb(178, 178, 178);
+  font-size: 20px;
+  color: green;
+}
