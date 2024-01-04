@@ -84,3 +84,15 @@ thead th {
   font-size: 20px;
   color: green;
 }
+tr {
+  border: 1px solid black;
+}
+
+.invisible {
+  display: none;
+}
+
+.summary {
+  display: flex;
+  justify-content: center
+}

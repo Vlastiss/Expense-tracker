@@ -16,27 +16,28 @@
       <input type="date" id="date">
       <p class="text_p">Amount:</p>
       <input type="number" placeholder="How much did you spend?" id="amount">
-      <button class="btn" onclick="add()">Add Expense</button>
+      <button class="btn" onclick="addRow()">Add Expense</button>
     </div>
-    <table>
+    <table id="myTable">
       <thead>
         <tr>
           <th>Name</th>
           <th>Date</th>
-          <th>Amount</th>
+          <th class="amount">Amount</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
+      <tbody id="tableBody">
         <tr>
-          <td>pole1</td>
-          <td>pole2</td>
-          <td>pole3</td>
-          <td>x</td>
+          <td class="invisible"></td>
+          <td class="invisible"></td>
+          <td class="invisible"></td>
+          <td class="invisible"></td>
         </tr>
       </tbody>
     </table>
-    <h2 class="total">Total:</h2>
+    <h2 class="summary">Total amount: £ <span id="total"></span> </h2>
     <script src="script.js"></script>
   </body>
 </html>
